@@ -1,0 +1,1 @@
+echo -e '\033[0;32mthis is test for chec woking\033[0m'
