@@ -1,6 +1,6 @@
 if [  $1 == install ]
 then
-wget --no-check-certificate --content-disposition -P /bin/ https://raw.githubusercontent.com/ignitdoreo/egpm-repo/main/repo/test/test
+wget --no-check-certificate --content-disposition -P /bin/ https://raw.githubusercontent.com/ignitdoreo/egpm-repo/main/repo/$2/$2
 chmod +x /bin/$2
 elif [  $1 == info  ]
 then
