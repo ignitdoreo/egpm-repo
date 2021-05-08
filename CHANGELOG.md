@@ -1,13 +1,13 @@
 # 0.22
-Fixed INFO.
+Fixed INFO.<br />
 # 0.21
-Fixed VER.
+Fixed VER.<br />
 # 0.2
-Added VER and UPD
-VER displays version of gtpm.
-UPD updates gtpm for current version.
+Added VER and UPD<br />
+VER displays version of gtpm.<br />
+UPD updates gtpm for current version.<br />
 # 0.1
-Created this project
-First version
-Can just install and info
-And nothing
+Created this project<br />
+First version<br />
+Can just install and info<br />
+And nothing<br />
