@@ -1,0 +1,9 @@
+echo -n -e "\033[0;31m[!!!]\033[0m Перейти в \033[0;35mZSH Shell\033[0m? \033[0;31m[!!!]\033[0;36m (Y/N) \033[0m"
+read is
+if [  $is == 'y'  ]
+then
+zsh
+clear
+else
+clear
+fi
