@@ -8,12 +8,13 @@ wget --no-check-certificate --content-disposition -P /gtpm/$2-info https://raw.g
 cat /gtpm/$2-info/info
 elif [  $1 == upd  ]
 then
+rm -rf /bin/gtpm
 wget --no-check-certificate --content-disposition -P /bin/ https://raw.githubusercontent.com/ignitdoreo/egpm-repo/main/gtpm
 sleep 2
 chmod +x /bin/gtpm
 elif [  $1 == ver  ]
 then
-printf "gtpm, version 0.2\n"
+printf "gtpm, version 0.21\n"
 else
 echo -e '\033[0;31m\033[1musage: gtmp [install/info/update/ver]\033[0m'
 fi
