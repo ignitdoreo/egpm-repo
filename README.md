@@ -3,6 +3,6 @@
 _egpm (easy github package manager) Это изначальное имя. Я его поменял чтоб не было перекликивания с моим иминем._
 ## Установка/Удаление
 Для установки введи:<br />
-`$ sudo wget --no-check-certificate -O - https://raw.githubusercontent.com/ignitdoreo/egpm-repo/main/install-gtpm | bash`
+`$ sudo wget --no-check-certificate -O - https://raw.githubusercontent.com/ignitdoreo/egpm-repo/main/install-gtpm | bash`<br />
 А для удаление:<br />
 `$ rm -rf /bin/gtpm && rm -rf /bin/gtpm.*`
