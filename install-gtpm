@@ -1,0 +1,3 @@
+wget --no-check-certificate -P /bin/ https://raw.githubusercontent.com/ignitdoreo/egpm-repo/main/gtpm
+chmod +x /bin/gtpm
+echo -en "You have installed GTPM!\nYea this is micro test...\nBut i hope one of my packages help you!\nENJOY!\n"
