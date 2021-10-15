@@ -1,0 +1,26 @@
+while :
+do
+printf "Main [h-help]: "
+read rm
+if [[ ${rm} == "r" ]]
+then
+	printf "Number: "
+	read nom
+	xdg-open "https://gdz.ru/class-6/russkii_yazik/baranov-2008/${nom}-nom/"
+	notify-send "'OpenGDZ' Opened ${nom} exerice of russian language."
+elif [[ ${rm} == "m" ]]
+then
+	printf "Exerice: "
+	read nom
+	xdg-open "https://gdz.ru/class-6/matematika/vilenkin-13-23/${nom}-nom/"
+	notify-send "'OpenGDZ' Opened ${nom} num of math."
+elif [[ ${rm} == "h" ]]
+then
+	printf "\033[0;32mR - Russian Language (you will asked for exerice)\nM - Math (you will asked for number)\nH - This menu\nQ - Quit from programm.\033[0;0m\n"
+elif [[ ${rm} == "q" ]]
+then
+	exit
+else
+	printf "\e[0;31mYou mistyped something...\e[0;0m\n"
+fi
+done
